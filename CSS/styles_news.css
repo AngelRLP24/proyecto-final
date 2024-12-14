@@ -1,0 +1,41 @@
+body {
+    margin: 5;
+    padding: 5;
+    height: 100vh;
+    background: #174433 50%;
+  }
+
+  /* IMAGE BOX START */
+
+.container_image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.image_box {
+    margin: 20px;
+}
+
+img {
+    height: 300px;
+    max-width: 400px;
+    border-radius: 35px 0px 35px 0px;
+    border: 2px solid black;
+}
+
+.image_text {
+    margin: 4;
+    font-size: large;
+    color: black;
+    height: auto;
+    max-width: 400px;
+    border-radius: 5px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: #04AA6D;
+}
+
+  /* IMAGE BOX END */
+
+  
